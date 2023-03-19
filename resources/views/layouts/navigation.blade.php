@@ -72,8 +72,8 @@
                 </div>
                 <script>
                     function copyText() {
-                        /* Copy text into clipboard */
                         var chinaaddress = $("#chinaaddress").html();
+                        console.log(chinaaddress);
                         navigator.clipboard.writeText(chinaaddress);
                     }
 
