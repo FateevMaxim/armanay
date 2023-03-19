@@ -73,7 +73,6 @@
                 <script>
                     function copyText() {
                         var chinaaddress = $("#chinaaddress").html();
-                        console.log(chinaaddress);
                         navigator.clipboard.writeText(chinaaddress);
                     }
 
